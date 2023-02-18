@@ -4,9 +4,9 @@
 /**
  * main - main function
  *
- * Description: 'Program to combine digits'
+i * Description: 'Program to combine digits'
  *
- * Return: Always 0 (successful)
+ * Return: Always 0 (success)
  */
 
 int main(void)
