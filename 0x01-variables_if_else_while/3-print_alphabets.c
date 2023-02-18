@@ -7,19 +7,13 @@ i#include <stdio.h>
  */
 int main(void)
 {
-	char chLower = 'a';
-	char chUpper = 'A';
+	char i;
 
-	for (chLower = 'a'; chLower <= 'z'; chLower++)
-	{
-		putchar(chLower);
-	}
-	for (chUpper = 'A'; chUpper <= 'Z'; chUpper++)
-	{
-		putchar(chUpper);
-	}
+	for (i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	for (i = 'A' ; i <= 'Z' ; i++)
+		putchar(i);
 	putchar('\n');
-
 	return (0);
-}
 
+}
