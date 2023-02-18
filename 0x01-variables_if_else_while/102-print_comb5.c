@@ -4,7 +4,7 @@
 /**
  * main - main function
  *
-i * Description: 'Program to combine digits'
+ * Description: 'Program to combine digits'
  *
  * Return: Always 0 (success)
  */
