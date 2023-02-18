@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0 ; j < 10 ; i++)
 	{
 		for (j = 1 ; j < 10 ; j++)
 		{
@@ -25,6 +25,6 @@ int main(void)
 			}
 		}
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
