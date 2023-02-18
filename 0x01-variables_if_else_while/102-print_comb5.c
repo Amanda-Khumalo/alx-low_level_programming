@@ -1,8 +1,12 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 /**
  * main - main function
  *
- * Return: 0
+ * Description: 'Program to combine digits'
+ *
+ * Return: Always 0 (successful)
  */
 
 int main(void)
@@ -22,8 +26,8 @@ int main(void)
 		c1 = 0;
 		while (c1 <= 99)
 		{
-			d1 = (c / 10 + '0');
-			e1 = (c % 10 + '0');
+			d1 = (c1 / 10 + '0');
+			e1 = (c1 % 10 + '0');
 			if (c < c1)
 			{
 				putchar(d);
@@ -33,7 +37,7 @@ int main(void)
 				putchar(e1);
 				if (c != 98)
 				{
-					putchar(' ');
+					putchar(',');
 					putchar(' ');
 				}
 			}
