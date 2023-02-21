@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints _putchar and a new linw
+ * main - entry point
  * 
  * Return: Always 0
  */
