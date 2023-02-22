@@ -8,8 +8,19 @@
 
 int _abs(int t)
 {
-	if (t >= 0)
+	if (t > 0)
+	{
+		_putchar('+');
 		return (1);
+	}
+	else if (t < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
 	else
-		return (-t);
+	{
+		_putchar('0');
+		return (0);
+	}
 }
