@@ -1,26 +1,24 @@
 #include "main.h"
 
 /**
- * _abs - Computes the alphabet value of an integer
- * @t: The integer to be computed
- * Return: The absolute value
+ * _abs - check absolute value of an integer
+ * @r: The integer to be computed
+ * Return: 0
  */
 
-int _abs(int t)
+int _abs(int r)
 {
-	if (t > 0)
+	if (r > 0)
 	{
-		_putchar('+');
-		return (1);
+		return (r);
 	}
-	else if (t < 0)
+	else if (r < 0)
 	{
-		_putchar('-');
-		return (-1);
+		return (r * -t);
 	}
 	else
 	{
-		_putchar('0');
-		return (0);
+		return (r);
 	}
+		return (0);
 }
