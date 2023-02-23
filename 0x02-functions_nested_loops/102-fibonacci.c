@@ -21,7 +21,7 @@ int main(void)
 		{
 			z += y;
 			y = z - y;
-			print(", %id", z);
+			printf(", %id", z);
 		}
 		++x;
 	}
