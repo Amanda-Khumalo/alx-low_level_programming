@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-void print_to_98(int n)
+void print_to _98(int n)
 {
 	if (n <= 98)
 	{
@@ -22,7 +22,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf(" % d, ",n);
+				printf(% d, ",n);
 			}
 		}
 	}
@@ -31,13 +31,13 @@ void print_to_98(int n)
 	{
 		for (;n >= 98; n--)
 		{
-			if (n == 98)
+			if(n == 98)
 			{
-				printf(" % d\n", n);
+				printf("% d\n", n);
 				break;
 			}
 			else
-				printf(" % id, ", n);
+				printf("% id, ", n);
 		}
 	}
 }
