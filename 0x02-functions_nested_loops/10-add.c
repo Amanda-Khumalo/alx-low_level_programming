@@ -1,19 +1,13 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * add - add two numbers
- *
- * @a: first number
- *
- * @b: second number
- *
- * Return: sum of two numbers
+ * add - Adds two values
+ * @n1: The first number to be computed
+ * @n2: The second number to be computed
+ * Return: 0
  */
 
-int add(int a, int b)
+int add(int n1, int n2)
 {
-	int sum;
-
-	sum = a + b;
-	return (sum);
+	return (n1 + n2);
 }
