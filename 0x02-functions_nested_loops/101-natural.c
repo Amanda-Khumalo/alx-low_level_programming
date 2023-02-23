@@ -1,24 +1,23 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Print sum of all multiple of 3 or 5 upto 1024
+ * main - Prints sum of all multiples of 3 or 5 upto 1024
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-	int n, x + 0;
+	int i, z = 0;
 
-	while (n < 1024)
+	while (i < 1024)
 	{
 		if ((n % 3 == 0) || (n % 5 == 0))
 		{
-			x += n;
+			z += i;
 		}
-		n++;
+		i++;
 	}
-	printf(" % d\n", x);
+	printf("%d\n", z);
 	return (0);
 }
