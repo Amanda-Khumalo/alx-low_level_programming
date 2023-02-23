@@ -21,7 +21,7 @@ int main(void)
 		{
 			k += j;
 			j = k - j;
-			printif(", %ld", k);
+			printf(", %ld", k);
 		}
 		++i;
 	}
