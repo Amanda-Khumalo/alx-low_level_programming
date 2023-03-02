@@ -15,6 +15,7 @@ int main(void)
 	char password[100];
 	time_t t;
 
+
 	srand((int) time(&t));
 	while (ascii > 126)
 	{
